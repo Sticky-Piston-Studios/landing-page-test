@@ -23,7 +23,8 @@
     "lint:fix": "npm run lint --fix"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0".
+    "npm": ">=7.0.0"
     },
   "dependencies": {
     "@babel/core": "^7.16.5",
