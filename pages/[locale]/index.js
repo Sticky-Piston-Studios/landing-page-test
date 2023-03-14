@@ -12,16 +12,25 @@ import { useSpacing } from '~/theme/common';
 import Header from '~/components/Header';
 import BannerSlider from '~/components/BannerSlider';
 import Feature from '~/components/Feature';
-import Counter from '~/components/Counter';
-import Testimonials from '~/components/Testimonials';
-import Pricing from '~/components/Pricing';
-import Blog from '~/components/Blog';
 import Subscribe from '~/components/Subscribe';
 import Footer from '~/components/Footer';
 import Corner from '~/components/Corner';
 import Notification from '~/components/Notification';
 import brand from '~/public/text/brand';
+import GalleryWidget from '~/components/Blog/Sidebar/GalleryWidget';
 
+// BAR layout (from left to right)
+// logo -> odnosniki do tego co tu mamy -> login/register albo CTA bar
+
+// MODEL LAYOUT
+// logo
+// call to action
+// 3 guys
+// smieszny przelacznik
+// galeryjka
+// contact
+// footer
+//
 function Landing(props) {
   const classes = useSpacing();
   const { onToggleDark, onToggleDir } = props;
@@ -44,23 +53,14 @@ function Landing(props) {
           <section id="home">
             <BannerSlider />
           </section>
+          <section id="subscribe">
+            <Subscribe />
+          </section>
           <section className={clsx(classes.spaceTop, classes.spaceBottomShort)} id="feature">
             <Feature />
           </section>
-          <section>
-            <Counter dark />
-          </section>
-          <section className={classes.spaceTop} id="testimonials">
-            <Testimonials />
-          </section>
-          <section className={classes.spaceTop} id="pricing">
-            <Pricing />
-          </section>
-          <section className={clsx(classes.spaceTop, classes.spaceBottom)} id="blog">
-            <Blog />
-          </section>
-          <section id="subscribe">
-            <Subscribe />
+          <section id="gallery">
+            <GalleryWidget />
           </section>
         </main>
         <Hidden smDown>

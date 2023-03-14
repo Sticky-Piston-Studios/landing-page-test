@@ -10,12 +10,12 @@ import TestiCard from '../Cards/TestiCard';
 
 const testiContent = [
   {
-    text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+    text: 'Twoja stara zpaieradal',
     avatar: imgAPI.avatar[10],
     name: 'John Doe - CTO La Lieur'
   },
   {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+    text: 'Kurwa kuraw kurwa',
     avatar: imgAPI.avatar[1],
     name: 'Jean Doe - VP Company'
   },
