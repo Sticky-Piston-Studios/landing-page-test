@@ -23,12 +23,12 @@ function MainFeature() {
           <div>
             <ScrollAnimation animateIn="fadeInLeft" duration={0.6}>
               <Typography variant="h3" className={classes.title}>
-                Lorem ipsum dolor
+                Broad variety of supported models
               </Typography>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInLeft" delay={300} duration={0.6}>
               <Typography variant="body1" className={classes.text}>
-                Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
+                Choose from models ranging from StableDiffusion, to DALL-E
               </Typography>
             </ScrollAnimation>
           </div>
@@ -40,7 +40,7 @@ function MainFeature() {
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInRight" delay={500} duration={0.6}>
               <figure className={classes.img}>
-                <img src="https://source.unsplash.com/random" alt="img" />
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FtgMvLSAAQqA%2Fhqdefault.jpg&f=1&nofb=1&ipt=2254246b484553eefede7f28696debe31b88fcca5fae7fe081f6a7cc2e09b378&ipo=images" alt="img" />
               </figure>
             </ScrollAnimation>
           </div>
@@ -74,29 +74,31 @@ function MainFeature() {
           </div>
         </Grid>
       </Grid>
-      <Grid container className={classes.root} spacing={6}>
-        <Grid md={12} item>
-          <div className={classes.featureMore}>
-            <div className={clsx(align.textCenter, classes.featureItem, classes.last)}>
-              <ScrollAnimation animateIn="fadeInUp" duration={0.6}>
-                <Typography variant="h3" className={classes.title}>
-                  Lorem ipsum dolor
-                </Typography>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeInUp" delay={300} duration={0.6}>
-                <Typography variant="body1" className={classes.text}>
-                  Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
-                </Typography>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="zoomIn" delay={300} duration={0.6}>
-                <div className={classes.deco2} />
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeInUp" delay={500} duration={0.6}>
-                <figure className={classes.imgFull}>
-                  <img src="https://source.unsplash.com/random" alt="img" />
-                </figure>
-              </ScrollAnimation>
-            </div>
+      <Grid container className={classes.featureItem} spacing={6}>
+        <Grid md={6} xs={12} item>
+          <div>
+            <ScrollAnimation animateIn="fadeInLeft" duration={0.6}>
+              <Typography variant="h3" className={classes.title}>
+                Broad variety of supported models
+              </Typography>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInLeft" delay={300} duration={0.6}>
+              <Typography variant="body1" className={classes.text}>
+                Choose from models ranging from StableDiffusion, to DALL-E
+              </Typography>
+            </ScrollAnimation>
+          </div>
+        </Grid>
+        <Grid md={6} xs={12} item>
+          <div>
+            <ScrollAnimation animateIn="zoomIn" delay={300} duration={0.6}>
+              <div className={classes.deco1} />
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInRight" delay={500} duration={0.6}>
+              <figure className={classes.img}>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FtgMvLSAAQqA%2Fhqdefault.jpg&f=1&nofb=1&ipt=2254246b484553eefede7f28696debe31b88fcca5fae7fe081f6a7cc2e09b378&ipo=images" alt="img" />
+              </figure>
+            </ScrollAnimation>
           </div>
         </Grid>
       </Grid>

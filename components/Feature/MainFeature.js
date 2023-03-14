@@ -15,10 +15,10 @@ function MainFeature() {
           <div className={classes.featureList}>
             <BackupIcon className={classes.icon} />
             <Typography variant="h5">
-              Lorem ipsum dolor
+              Cost
             </Typography>
             <Typography variant="body1">
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
+              2D Artists and 3D Designers are expensive and prone to getting sick leave lol
             </Typography>
           </div>
         </Grid>
@@ -26,10 +26,10 @@ function MainFeature() {
           <div className={classes.featureList}>
             <ExploreIcon className={classes.icon} />
             <Typography variant="h5">
-              Lorem ipsum dolor
+              Time
             </Typography>
             <Typography variant="body1">
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
+              Time per asset varies with experience and the detail but is generally quite high
             </Typography>
           </div>
         </Grid>
@@ -37,10 +37,10 @@ function MainFeature() {
           <div className={classes.featureList}>
             <MusicIcon className={classes.icon} />
             <Typography variant="h5">
-              Lorem ipsum dolor
+              Choice of style
             </Typography>
             <Typography variant="body1">
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
+              One artist is usually skilled in just a single style or at best a few
             </Typography>
           </div>
         </Grid>
