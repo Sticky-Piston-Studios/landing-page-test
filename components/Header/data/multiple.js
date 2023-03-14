@@ -1,5 +1,3 @@
-import sample from './sample-pages';
-
 const defaultChild = id => [
   {
     name: '1Vivamus Condimentum',
@@ -108,10 +106,6 @@ const multiple = [
         child: defaultChild('4_3_1')
       }
     ]
-  },
-  {
-    name: 'inner Pages',
-    child: sample
   }
 ];
 
